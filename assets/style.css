@@ -25,16 +25,6 @@ body {
   background-color: #a2d5fb;
   border: 0;
 }
-.navbar-light .navbar-nav .nav-link {
-  color: white;
-}
-.navbar-light .navbar-nav a.nav-link:hover {
-  color: f0f457;
-}
-.navbar-light .navbar-nav .active > .nav-link {
-  color: caffcf;
-  font-weight: bold;
-}
 .card.stage {
   display: inline-block;
 }
@@ -157,26 +147,24 @@ li.clean {
   src: local('Archivo Black Regular'), local('ArchivoBlack-Regular'), url('../fonts/archivo-black-v9-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/archivo-black-v9-latin-regular.woff') format('woff');
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-nav.navbar,
-footer.navbar {
+nav.navbar.navbar-light,
+footer.navbar.navbar-light {
   background-color: #313846;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
-nav.navbar a.nav-link,
-footer.navbar a.nav-link {
+nav.navbar.navbar-light a.nav-link,
+footer.navbar.navbar-light a.nav-link {
   color: #EFEFEF;
 }
-nav.navbar a.nav-link:hover,
-footer.navbar a.nav-link:hover {
-  color: #313846;
-}
-nav.navbar a.nav-link.active,
-footer.navbar a.nav-link.active,
-nav.navbar a.nav-link.focus,
-footer.navbar a.nav-link.focus {
-  color: #FDFA3E;
+nav.navbar.navbar-light a.nav-link.active,
+footer.navbar.navbar-light a.nav-link.active,
+nav.navbar.navbar-light a.nav-link.focus,
+footer.navbar.navbar-light a.nav-link.focus,
+nav.navbar.navbar-light a.nav-link:hover,
+footer.navbar.navbar-light a.nav-link:hover {
+  color: #FFFF33;
 }
 .artist .gallery img {
   height: auto;
@@ -187,7 +175,7 @@ footer.navbar a.nav-link.focus {
 }
 .artist .social a,
 .artist .support a {
-  color: black;
+  color: #333333;
 }
 .artist .social a:hover,
 .artist .support a:hover {
@@ -195,7 +183,7 @@ footer.navbar a.nav-link.focus {
   text-decoration: none;
 }
 .artist .personalData a {
-  color: black;
+  color: #333333;
 }
 .artist .personalData a:hover {
   color: #333333;
@@ -203,13 +191,19 @@ footer.navbar a.nav-link.focus {
 body {
   font-family: "Roboto", sans-serif;
   background: #EFEFEF;
-  color: black;
+  color: #333333;
+}
+.fa,
+.fab,
+.fas {
+  color: #F56C75;
 }
 a {
-  color: #313846;
+  color: #F56C75;
 }
 a:hover {
-  color: #313846;
+  color: #F56C75;
+  text-decoration: underline;
 }
 h1,
 h2,

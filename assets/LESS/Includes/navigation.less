@@ -1,4 +1,4 @@
- nav.navbar, footer.navbar {
+ nav.navbar.navbar-light, footer.navbar.navbar-light {
    background-color: @color-grey;
 
    font-family: "Roboto", sans-serif;
@@ -8,12 +8,8 @@
    a.nav-link {
       color: @color-grey-light;
 
-     &:hover {
-       color: @color-accent;
-     }
-
-     &.active, &.focus {
-       color: @color-highlight;
+     &.active, &.focus, &:hover {
+       color: @color-nav-accent;
      }
    }
  }
