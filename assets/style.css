@@ -204,6 +204,7 @@ body {
   font-family: "Roboto", sans-serif;
   background: #EFEFEF;
   color: #333333;
+  margin: 0;
 }
 .fa,
 .fab,
@@ -254,4 +255,3 @@ h5 a:hover {
 .carousel-caption > h1 {
   color: white;
 }
-/*# sourceMappingURL=style.css.map */
