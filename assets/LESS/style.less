@@ -11,7 +11,23 @@ body {
   color: @color-primary;
 }
 
+a {
+  color: @color-grey;
+
+  &:hover {
+    color: @color-accent;
+  };
+}
+
 h1, h2, h3, h4, h5 {
   font-family: "Archivo Black", sans-serif;
   color: @color-grey;
+
+  a {
+    color: @color-grey;
+
+    &:hover {
+      color: @color-grey-dark;
+    }
+  }
 }

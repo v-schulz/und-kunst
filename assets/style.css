@@ -170,7 +170,7 @@ footer.navbar a.nav-link {
 }
 nav.navbar a.nav-link:hover,
 footer.navbar a.nav-link:hover {
-  color: #EFF67B;
+  color: #313846;
 }
 nav.navbar a.nav-link.active,
 footer.navbar a.nav-link.active,
@@ -205,6 +205,12 @@ body {
   background: #EFEFEF;
   color: black;
 }
+a {
+  color: #313846;
+}
+a:hover {
+  color: #313846;
+}
 h1,
 h2,
 h3,
@@ -212,5 +218,19 @@ h4,
 h5 {
   font-family: "Archivo Black", sans-serif;
   color: #313846;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a {
+  color: #313846;
+}
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover {
+  color: #333333;
 }
 /*# sourceMappingURL=style.css.map */
