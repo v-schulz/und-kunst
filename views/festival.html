@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>... und Kunst</title>
+    <title>&amp;Kunst</title>
     <link rel="stylesheet" type="text/css" href="/assets/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/assets/font-awesome/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="/assets/style.css">
@@ -18,7 +18,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-navbar py-0 pl-0">
     <div class="container">
         <a class="navbar-brand py-0 pl-0" href="/">
-            <img src="/assets/img/logo.png" height="80px" alt="... und Kunst"/>
+            <img src="/assets/img/logo.png" height="80px" alt="&amp;Kunst"/>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false"
@@ -35,9 +35,6 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/events">Events</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/artists">Künstler:innen</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/events">Lokale Events</a>
@@ -182,6 +179,37 @@
         </div>
     </div>
 </div>
+	<div class="container position-fixed chat">
+		<div class="chat-header" style="background-color:rgb(100,100,100)">
+			Chat
+		</div>
+		<div class="chat-body">
+			<div class="chat-message row">
+				<div class="col-2 m-0 p-0">
+					<img class="mt-1" src="assets/img/user-1.jpg" />
+				</div>
+				<div class="col-10 p-0">
+					<div class="mr-1" style="font-weight:bold;float:left">Benjamin</div><div> um 17:36:</div>
+					<div class="text-small m-0">Kommt mal alle auf die Stage 1 von Festival XYZ. Da findet gerade voll die interessante Lesung statt!</div>
+				</div>
+			</div>
+			<div class="chat-message row">
+				<div class="col-2 m-0 p-0">
+					<img class="mt-1" src="assets/img/user-2.jpg" />
+				</div>
+				<div class="col-10 p-0">
+					<div class="mr-1" style="font-weight:bold;float:left">Benjamin</div><div> um 17:37:</div>
+					<div class="text-small m-0">Danke, da schau ich gleich mal vorbei!</div>
+				</div>
+			</div>
+			<div style="position:fixed; bottom:0; width:340px" id="chat">
+				<div style="width:100%">
+					<input style="width:260px"></input>
+					<button style="width:65px;margin-right:10px">Senden</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
 <footer class="navbar navbar-expand-lg navbar-light bg-navbar py-0 pl-0 footer">
     <div class="container">
@@ -202,7 +230,12 @@
 </footer>
 </body>
 
-
+<script>
+$(".chat-header").click(function() {
+$(".chat").toggleClass("opened")
+$("#chat").toggle()
+})
+</script>
 
 </body>
 
