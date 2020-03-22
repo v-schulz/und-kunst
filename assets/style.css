@@ -46,14 +46,6 @@ body {
   margin-bottom: 30px;
   /* Margin bottom by footer height */
 }
-.footer {
-  position: absolute;
-  bottom: 0;
-  margin: 0;
-  width: 100%;
-  height: 40px;
-  /* Set the fixed height of the footer here */
-}
 .input-group.md-form.form-sm.form-1 input {
   border: 1px solid #bdbdbd;
   border-top-right-radius: 0.25rem;
@@ -96,7 +88,7 @@ li.clean {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: local('Roboto'), local('Roboto-Regular'), url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/roboto-v20-latin-regular.woff') format('woff');
+  src: local('Roboto'), local('Roboto-Regular'), url('fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('fonts/roboto-v20-latin-regular.woff') format('woff');
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* roboto-italic - latin */
@@ -104,7 +96,7 @@ li.clean {
   font-family: 'Roboto';
   font-style: italic;
   font-weight: 400;
-  src: local('Roboto Italic'), local('Roboto-Italic'), url('../fonts/roboto-v20-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/roboto-v20-latin-italic.woff') format('woff');
+  src: local('Roboto Italic'), local('Roboto-Italic'), url('fonts/roboto-v20-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('fonts/roboto-v20-latin-italic.woff') format('woff');
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* roboto-500 - latin */
@@ -112,7 +104,7 @@ li.clean {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  src: local('Roboto Medium'), local('Roboto-Medium'), url('../fonts/roboto-v20-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/roboto-v20-latin-500.woff') format('woff');
+  src: local('Roboto Medium'), local('Roboto-Medium'), url('fonts/roboto-v20-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('fonts/roboto-v20-latin-500.woff') format('woff');
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* roboto-500italic - latin */
@@ -120,7 +112,7 @@ li.clean {
   font-family: 'Roboto';
   font-style: italic;
   font-weight: 500;
-  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url('../fonts/roboto-v20-latin-500italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/roboto-v20-latin-500italic.woff') format('woff');
+  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url('fonts/roboto-v20-latin-500italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('fonts/roboto-v20-latin-500italic.woff') format('woff');
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* roboto-700 - latin */
@@ -128,7 +120,7 @@ li.clean {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: local('Roboto Bold'), local('Roboto-Bold'), url('../fonts/roboto-v20-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/roboto-v20-latin-700.woff') format('woff');
+  src: local('Roboto Bold'), local('Roboto-Bold'), url('fonts/roboto-v20-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('fonts/roboto-v20-latin-700.woff') format('woff');
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* roboto-700italic - latin */
@@ -136,7 +128,7 @@ li.clean {
   font-family: 'Roboto';
   font-style: italic;
   font-weight: 700;
-  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url('../fonts/roboto-v20-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/roboto-v20-latin-700italic.woff') format('woff');
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url('fonts/roboto-v20-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('fonts/roboto-v20-latin-700italic.woff') format('woff');
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* archivo-black-regular - latin */
@@ -144,7 +136,7 @@ li.clean {
   font-family: 'Archivo Black';
   font-style: normal;
   font-weight: 400;
-  src: local('Archivo Black Regular'), local('ArchivoBlack-Regular'), url('../fonts/archivo-black-v9-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/archivo-black-v9-latin-regular.woff') format('woff');
+  src: local('Archivo Black Regular'), local('ArchivoBlack-Regular'), url('fonts/archivo-black-v9-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('fonts/archivo-black-v9-latin-regular.woff') format('woff');
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 nav.navbar.navbar-light,
@@ -153,6 +145,10 @@ footer.navbar.navbar-light {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
+}
+nav.navbar.navbar-light .navbar-brand img,
+footer.navbar.navbar-light .navbar-brand img {
+  height: 100px;
 }
 nav.navbar.navbar-light a.nav-link,
 footer.navbar.navbar-light a.nav-link {
@@ -166,6 +162,9 @@ nav.navbar.navbar-light a.nav-link:hover,
 footer.navbar.navbar-light a.nav-link:hover {
   color: #FFFF33;
 }
+footer {
+  margin-top: 3em;
+}
 .artist .gallery img {
   height: auto;
 }
@@ -175,23 +174,36 @@ footer.navbar.navbar-light a.nav-link:hover {
 }
 .artist .social a,
 .artist .support a {
-  color: #333333;
+  color: #553333;
 }
 .artist .social a:hover,
 .artist .support a:hover {
-  color: #333333;
+  color: #553333;
   text-decoration: none;
 }
 .artist .personalData a {
-  color: #333333;
+  color: #553333;
 }
 .artist .personalData a:hover {
-  color: #333333;
+  color: #553333;
+}
+.artist-list .card {
+  padding: 0;
+}
+.artist-list img {
+  width: 100%;
+  height: auto;
+}
+.artist-list .artist {
+  margin-top: 2em;
+}
+.artist-list .artist .artist-text {
+  padding: 1em 1.25rem;
 }
 body {
   font-family: "Roboto", sans-serif;
   background: #EFEFEF;
-  color: #333333;
+  color: #553333;
 }
 .fa,
 .fab,
@@ -225,42 +237,6 @@ h2 a:hover,
 h3 a:hover,
 h4 a:hover,
 h5 a:hover {
-  color: #333333;
+  color: #553333;
 }
 /*# sourceMappingURL=style.css.map */
-.container.chat {
-	height: 30px;
-	width: 350px;
-	margin: 0;
-	padding: 0;
-	bottom: 0;
-	right: 0;
-	background-color: darkgrey;
-	color: white;
-	text-align: center;
-	cursor: pointer;
-	z-index: 999;
-}
-
-.container.chat.opened {
-	height: 66%;
-}
-
-.chat-header {
-	font-weight: bold;
-}
-
-.chat-body {
-	height: 100%;
-	overflow-y: scroll;
-}
-
-.chat-message {
-	font-size: 0.8em;
-	text-align: left;
-	margin: 4px;
-}
-
-#chat {
-	display: none;
-}
