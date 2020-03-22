@@ -227,7 +227,18 @@ h4 a:hover,
 h5 a:hover {
   color: #333333;
 }
+
+.page-item.active .page-link {
+	background-color: #F56C75;
+	border-color: #F56C75;
+}
+.page-link {
+	color: #F56C75;
+}
 /*# sourceMappingURL=style.css.map */
+.highlight {
+	color: #F56C75 !important;
+}
 .container.chat {
 	height: 30px;
 	width: 350px;
