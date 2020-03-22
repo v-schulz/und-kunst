@@ -1,0 +1,196 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>... und Kunst</title>
+    <link rel="stylesheet" type="text/css" href="/assets/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/font-awesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/style.css">
+
+    <script src="/assets/jquery/dist/jquery.min.js"></script>
+    <script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-navbar py-0 pl-0">
+    <div class="container">
+        <a class="navbar-brand py-0 pl-0" href="/">
+            <img src="/assets/img/logo.png" height="80px" alt="... und Kunst"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav d-flex w-100 justify-content-around">
+                <li class="nav-item">
+                    <a class="nav-link" href="/home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/festivals">Festivals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/events">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/events">Lokale Events</a>
+                </li>
+            </ul>
+        </div>
+<<<<<<< HEAD
+    </nav>
+	<div class="container artist pl-0">
+		<div class="row">
+			<div class="col-12 col-md-6">
+				<div class="gallery">
+					<div id="gallery" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class="d-block w-100" src="assets/img/01.png" alt="First slide">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" src="assets/img/02.png" alt="Second slide">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pl-md-5 col-12 col-md-6">
+				<h1>Andi Woelk</h1>
+				<div class="social">
+					<a href="https://www.instagram.com/andiwoelk/"><i class="fab fa-instagram"></i></a>
+					<a href="https://www.facebook.com/andiwoelkofficial/"><i class="fab fa-facebook-square"></i></a>
+				</div>
+				<div class="personalData mt-4">
+					<a href="https://www.andi-woelk.com/"><i class="fa fa-link"></i> andi-woelk.com</a><br />
+					<i class="fa fa-map-marker-alt"></i> Heilbad Heiligenstadt<br />
+					<i class="fa fa-phone"></i> (+49) 171 127 43 24<br />
+					<i class="fa fa-envelope mt-2"></i> <a href="mailto:mail@andi-woelk.com">mail@andi-woelk.com</a><br />
+				</div>
+				<div class="support mt-4">
+					<a href="#"><i class="fab fa-patreon"></i> Patreon</a><br />
+					<a href="#"><i class="fab fa-paypal"></i> Paypal</a><br />
+					<a href="#"><i class="fa fa-shopping-bag"></i> Shop</a><br />
+					<a href="#"><i class="fa fa-ticket-alt"></i> Tickets</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 vita mt-5">
+				<h3>Vita</h3>
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+=======
+    </div>
+</nav>
+<div class="container artist pl-0">
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <div class="gallery">
+                <div id="gallery" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/01.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/02.png" alt="Second slide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pl-md-5 col-12 col-md-6">
+            <h1>Andi Woelk</h1>
+            <div class="social">
+                <a href="https://www.instagram.com/andiwoelk/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/andiwoelkofficial/"><i class="fab fa-facebook-square"></i></a>
+            </div>
+            <div class="personalData mt-4">
+                <a href="https://www.andi-woelk.com/"><i class="fa fa-link"></i> andi-woelk.com</a><br/>
+                <i class="fa fa-map-marker-alt"></i> Heilbad Heiligenstadt<br/>
+                <i class="fa fa-phone"></i> (+49) 171 127 43 24<br/>
+                <i class="fa fa-envelope mt-2"></i> <a href="mailto:mail@andi-woelk.com">mail@andi-woelk.com</a><br/>
+            </div>
+            <div class="support mt-4">
+                <a href="#"><i class="fab fa-patreon"></i> Patreon</a><br/>
+                <a href="#"><i class="fab fa-paypal"></i> Paypal</a><br/>
+                <a href="#"><i class="fa fa-shopping-bag"></i> Shop</a><br/>
+                <a href="#"><i class="fa fa-ticket-alt"></i> Tickets</a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 vita mt-5">
+            <h3>Vita</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+>>>>>>> a14210cc69519fa0bc6263bc967646f668302424
+
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore
+                eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
+                luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
+                consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+                erat volutpat.</p>
+
+            <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex
+                ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+                consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim
+                qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+        </div>
+        <div class="media row">
+            <div class="col-12">
+                <h3>Media</h3>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <iframe width="350px" height="197" src="https://www.youtube.com/embed/JS0Wuz4kptk" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <iframe width="350px" height="197" src="https://www.youtube.com/embed/NDt4oRFf9_Y" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <iframe width="350px" height="197" src="https://www.youtube.com/embed/SnkIT0ViG3I" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <iframe width="350px" height="197" src="https://www.youtube.com/embed/igoNPQiRCSM" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="navbar navbar-expand-lg navbar-light bg-navbar py-0 pl-0 footer">
+    <div class="container">
+        <div class="d-flex justify-content-end">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="">Impressum</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Datenschutz</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>

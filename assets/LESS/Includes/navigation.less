@@ -1,0 +1,19 @@
+ nav.navbar, footer.navbar {
+   background-color: @color-grey;
+
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
+
+   a.nav-link {
+      color: @color-grey-light;
+
+     &:hover {
+       color: @color-accent;
+     }
+
+     &.active, &.focus {
+       color: @color-highlight;
+     }
+   }
+ }
