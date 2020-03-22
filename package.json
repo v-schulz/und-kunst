@@ -1,0 +1,25 @@
+{
+  "name": "und-kunst",
+  "version": "1.0.0",
+  "description": "1.clone this repository<br/>\r   2.open a command prompt and change directory to your project directory (cd <your project directory>)<br/>\r   3.run the app by typing node app<br/>\r   4.go to http://localhost:3000 from your browser<br/>",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v-schulz/und-kunst.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v-schulz/und-kunst/issues"
+  },
+  "homepage": "https://github.com/v-schulz/und-kunst#readme"
+}
