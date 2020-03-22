@@ -107,6 +107,14 @@ li.clean {
 	margin: 5px;
 }
 
-.festival {
-	width: 100%
+.card-img-top.festival {
+	object-fit: cover;
+	width: 100%;
+	max-height: 12em;
+}
+
+.card-img-top.event {
+	object-fit: cover;
+	width: 100%;
+	max-height: 12em;
 }
