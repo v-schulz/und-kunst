@@ -54,6 +54,10 @@ app.get('/artists', function(request,response){
 	response.sendFile('artists/index.html',{root:path.join(__dirname,'./views')});
 });
 
+app.get('/andi_woelk', function(request,response){
+	response.sendFile('artists/andi_woelk/index.html',{root:path.join(__dirname,'./views')});
+});
+
 app.listen(3000,function(){
 	console.log('Listening at port 3000...');
 });
