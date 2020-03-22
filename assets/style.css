@@ -227,51 +227,18 @@ h4 a:hover,
 h5 a:hover {
   color: #333333;
 }
-
 .page-item.active .page-link {
-	background-color: #F56C75;
-	border-color: #F56C75;
+  background-color: #F56C75;
+  border-color: #F56C75;
 }
-.page-link {
-	color: #F56C75;
+.page-link,
+.page-link:hover {
+  color: #F56C75;
+  border: #F56C75;
 }
-/*# sourceMappingURL=style.css.map */
 .highlight {
-	color: #F56C75 !important;
+  color: #F56C75 !important;
 }
-.container.chat {
-	height: 30px;
-	width: 350px;
-	margin: 0;
-	padding: 0;
-	bottom: 0;
-	right: 0;
-	background-color: darkgrey;
-	color: white;
-	text-align: center;
-	cursor: pointer;
-	z-index: 999;
-}
-
-.container.chat.opened {
-	height: 66%;
-}
-
-.chat-header {
-	font-weight: bold;
-}
-
-.chat-body {
-	height: 100%;
-	overflow-y: scroll;
-}
-
-.chat-message {
-	font-size: 0.8em;
-	text-align: left;
-	margin: 4px;
-}
-
-#chat {
-	display: none;
+.carousel-caption > h1 {
+  color: white;
 }
