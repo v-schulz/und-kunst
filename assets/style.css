@@ -188,6 +188,13 @@ footer.navbar.navbar-light a.nav-link:hover {
 .artist .personalData a:hover {
   color: #333333;
 }
+.artist-list img {
+  width: 100%;
+  height: auto;
+}
+.artist-list .artist {
+  margin-bottom: 2em;
+}
 body {
   font-family: "Roboto", sans-serif;
   background: #EFEFEF;
@@ -228,39 +235,3 @@ h5 a:hover {
   color: #333333;
 }
 /*# sourceMappingURL=style.css.map */
-.container.chat {
-	height: 30px;
-	width: 350px;
-	margin: 0;
-	padding: 0;
-	bottom: 0;
-	right: 0;
-	background-color: darkgrey;
-	color: white;
-	text-align: center;
-	cursor: pointer;
-	z-index: 999;
-}
-
-.container.chat.opened {
-	height: 66%;
-}
-
-.chat-header {
-	font-weight: bold;
-}
-
-.chat-body {
-	height: 100%;
-	overflow-y: scroll;
-}
-
-.chat-message {
-	font-size: 0.8em;
-	text-align: left;
-	margin: 4px;
-}
-
-#chat {
-	display: none;
-}
