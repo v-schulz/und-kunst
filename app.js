@@ -39,7 +39,7 @@ app.get('/event', function(request,response){
 });
 
 app.get('/artist', function(request,response){
-	response.sendFile('artist.html',{root:path.join(__dirname,'./views')});
+	response.sendFile('artists/andi_woelk/index.html',{root:path.join(__dirname,'./views')});
 });
 
 app.get('/festivals', function(request,response){
@@ -48,6 +48,10 @@ app.get('/festivals', function(request,response){
 
 app.get('/events', function(request,response){
 	response.sendFile('events.html',{root:path.join(__dirname,'./views')});
+});
+
+app.get('/artists', function(request,response){
+	response.sendFile('artists/index.html',{root:path.join(__dirname,'./views')});
 });
 
 app.listen(3000,function(){

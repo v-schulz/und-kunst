@@ -25,6 +25,16 @@ body {
   background-color: #a2d5fb;
   border: 0;
 }
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-light .navbar-nav a.nav-link:hover {
+  color: f0f457;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+  color: caffcf;
+  font-weight: bold;
+}
 .card.stage {
   display: inline-block;
 }
@@ -91,6 +101,45 @@ li.clean {
   width: 100%;
   max-height: 12em;
 }
+<<<<<<< HEAD
+/*# sourceMappingURL=style.css.map */
+.container.chat {
+	height: 30px;
+	width: 350px;
+	margin: 0;
+	padding: 0;
+	bottom: 0;
+	right: 0;
+	background-color: darkgrey;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	z-index: 999;
+}
+
+.container.chat.opened {
+	height: 66%;
+}
+
+.chat-header {
+	font-weight: bold;
+}
+
+.chat-body {
+	height: 100%;
+	overflow-y: scroll;
+}
+
+.chat-message {
+	font-size: 0.8em;
+	text-align: left;
+	margin: 4px;
+}
+
+#chat {
+	display: none;
+}
+=======
 /* roboto-regular - latin */
 @font-face {
   font-family: 'Roboto';
@@ -147,24 +196,26 @@ li.clean {
   src: local('Archivo Black Regular'), local('ArchivoBlack-Regular'), url('../fonts/archivo-black-v9-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/archivo-black-v9-latin-regular.woff') format('woff');
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-nav.navbar.navbar-light,
-footer.navbar.navbar-light {
+nav.navbar,
+footer.navbar {
   background-color: #313846;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
-nav.navbar.navbar-light a.nav-link,
-footer.navbar.navbar-light a.nav-link {
+nav.navbar a.nav-link,
+footer.navbar a.nav-link {
   color: #EFEFEF;
 }
-nav.navbar.navbar-light a.nav-link.active,
-footer.navbar.navbar-light a.nav-link.active,
-nav.navbar.navbar-light a.nav-link.focus,
-footer.navbar.navbar-light a.nav-link.focus,
-nav.navbar.navbar-light a.nav-link:hover,
-footer.navbar.navbar-light a.nav-link:hover {
-  color: #FFFF33;
+nav.navbar a.nav-link:hover,
+footer.navbar a.nav-link:hover {
+  color: #313846;
+}
+nav.navbar a.nav-link.active,
+footer.navbar a.nav-link.active,
+nav.navbar a.nav-link.focus,
+footer.navbar a.nav-link.focus {
+  color: #FDFA3E;
 }
 .artist .gallery img {
   height: auto;
@@ -175,7 +226,7 @@ footer.navbar.navbar-light a.nav-link:hover {
 }
 .artist .social a,
 .artist .support a {
-  color: #333333;
+  color: black;
 }
 .artist .social a:hover,
 .artist .support a:hover {
@@ -183,7 +234,7 @@ footer.navbar.navbar-light a.nav-link:hover {
   text-decoration: none;
 }
 .artist .personalData a {
-  color: #333333;
+  color: black;
 }
 .artist .personalData a:hover {
   color: #333333;
@@ -191,19 +242,13 @@ footer.navbar.navbar-light a.nav-link:hover {
 body {
   font-family: "Roboto", sans-serif;
   background: #EFEFEF;
-  color: #333333;
-}
-.fa,
-.fab,
-.fas {
-  color: #F56C75;
+  color: black;
 }
 a {
-  color: #F56C75;
+  color: #313846;
 }
 a:hover {
-  color: #F56C75;
-  text-decoration: underline;
+  color: #313846;
 }
 h1,
 h2,
@@ -228,39 +273,4 @@ h5 a:hover {
   color: #333333;
 }
 /*# sourceMappingURL=style.css.map */
-.container.chat {
-	height: 30px;
-	width: 350px;
-	margin: 0;
-	padding: 0;
-	bottom: 0;
-	right: 0;
-	background-color: darkgrey;
-	color: white;
-	text-align: center;
-	cursor: pointer;
-	z-index: 999;
-}
-
-.container.chat.opened {
-	height: 66%;
-}
-
-.chat-header {
-	font-weight: bold;
-}
-
-.chat-body {
-	height: 100%;
-	overflow-y: scroll;
-}
-
-.chat-message {
-	font-size: 0.8em;
-	text-align: left;
-	margin: 4px;
-}
-
-#chat {
-	display: none;
-}
+>>>>>>> a14210cc69519fa0bc6263bc967646f668302424
