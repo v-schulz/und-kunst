@@ -20,3 +20,6 @@ https://undkunst.masonen.de for live preview
 - Photo by Krists Luhaers on Unsplash
 - Photo by Maxime Bhm on Unsplash
 - Photo by Spencer Imbrock on Unsplash
+- Photo by Zac Ong on Unsplash
+- Photo by Chris Nguyen on Unsplash
+
