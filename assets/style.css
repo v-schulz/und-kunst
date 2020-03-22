@@ -1,0 +1,112 @@
+body{
+	background-color: #fafafa;
+}
+
+
+.event {
+	object-fit: cover;
+	width: 200px;
+	height: 200px;
+}
+
+.carousel-item > img {
+	object-fit: cover;
+	width: 100%;
+	height: 50vh;
+}
+
+
+.carousel-caption {
+    max-width: 100%;
+    width:100%;
+    background: rgba(0,0,0,0.65);
+    left: 0;
+	bottom: 0;
+}
+
+.card-block {
+	width: 50%;
+}
+
+.bg-navbar {
+	background-color: #a2d5fb;
+	border: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-light .navbar-nav a.nav-link:hover {
+	color: f0f457;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+	color: caffcf;
+	font-weight: bold;
+}
+
+.card.stage {display:inline-block;}
+
+.nav {
+	background-color: lightgrey;
+}
+
+.nav-item .active { background-color: aaa}
+
+.portrait {
+	object-fit: cover;
+	width: 100%;
+}
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 30px; /* Margin bottom by footer height */
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  height: 40px; /* Set the fixed height of the footer here */
+}
+
+
+.input-group.md-form.form-sm.form-1 input{
+  border: 1px solid #bdbdbd;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+.input-group.md-form.form-sm.form-2 input {
+  border: 1px solid #bdbdbd;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+.input-group.md-form.form-sm.form-2 input.red-border {
+  border: 1px solid #ef9a9a;
+}
+.input-group.md-form.form-sm.form-2 input.lime-border {
+  border: 1px solid #cddc39;
+}
+.input-group.md-form.form-sm.form-2 input.amber-border {
+  border: 1px solid #ffca28;
+}
+
+.close {
+	line-height: 0.85;
+	margin-left: 5px;
+}
+
+
+li.clean {
+	list-style: none;
+	margin: 5px;
+}
+
+.festival {
+	width: 100%
+}
