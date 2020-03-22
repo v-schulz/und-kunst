@@ -156,3 +156,7 @@ li.clean {
 	text-align: left;
 	margin: 4px;
 }
+
+#chat {
+	display: none;
+}
